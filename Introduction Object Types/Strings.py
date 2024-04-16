@@ -74,4 +74,3 @@ print('{0}, eggs, and {1}'.format('spam', 'SPAM!')) # spam, eggs, and SPAM! Form
 """ busqueda de palabra que ha de comenzar en Hello y termina en world. Muestra todo lo de al medio """
 match = re.match('Hello[ \t]*(.*)world', 'Hello Python 3 world')
 print(match.group(1))
-
